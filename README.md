@@ -1,2 +1,2 @@
-# Tictac
-TICTACTOE game might need some tweaks but works for now.
+# Tic_Tac_Toe
+Tic_Tac_Toe game might need some tweaks but works.
