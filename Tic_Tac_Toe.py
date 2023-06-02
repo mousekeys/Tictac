@@ -52,11 +52,13 @@ def cwin():
 
 def play():
     Turn='X'
+    tutorial()
 # 9 as there are max 9 moves
     for i in range(9):
-        tutorial()
+        
         print()
         printboard()
+        cwin()
 
         print("For turn of "+ Turn +". Where would it be placed :")
         name=input().upper()
@@ -73,9 +75,6 @@ def play():
         if Turn=='X':
             Turn='O'
         else:
-            Turn='X'
-
-        cwin()
-
+            Turn='X'        
 
 play()
