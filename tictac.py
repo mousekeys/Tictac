@@ -52,7 +52,7 @@ def cwin():
 
 def play():
     Turn='X'
-# 9as there are max 9 moves
+# 9 as there are max 9 moves
     for i in range(9):
         tutorial()
         print()
