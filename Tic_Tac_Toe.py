@@ -30,7 +30,11 @@ def cwin():
     if tictac['TOP-R']==tictac['TOP-M'] and  tictac['TOP-L']==tictac['TOP-M'] and tictac['TOP-R']!=' ' and tictac['TOP-L']!=' ':
         print("You have won.")  
         exit(0) 
-
+        
+    if tictac['TOP-M'] == tictac['MID-M'] and tictac['MID-M'] == tictac['LOW-M'] and tictac['TOP-M'] != ' ' and tictac['LOW-M'] != ' ':
+        print("You have won.")
+        exit(0)
+    
     if tictac['MID-R']==tictac['MID-M'] and  tictac['MID-L']==tictac['MID-M'] and tictac['MID-R']!=' ' and tictac['MID-L']!=' ':
         print("You have won.")
         exit(0)
